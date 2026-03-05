@@ -2,10 +2,12 @@ body,h1,h2,h3,ul{margin: 0;}
 
 .site-header{background-color:deepskyblue;}
 
-.main-content{background-color: bisque; max-width:600px;
+.main-content{background-color: bisque; max-width:600px; 
 
 }
 
 .site-footer{background-color: cadetblue;}
 
-.hero-image{width: 100%; max-width: 300px; height: auto;}
+.hero-image{width: 100%; max-width: 300px; height: auto; transition: 200ms;}
+
+.hero-image:hover{200%}
